@@ -6,6 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.btn-contact{
+    width: 100%!important;
+}
 
 a,
 button {
@@ -841,10 +844,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-.btn-contact{
-    margin-left: 5em;
-    margin-right: 5em;
-}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1045,6 +1044,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .img-responsive{
+        margin: auto;
+        width: 30rem;
+        object-fit: cover;
     }
 }
 
