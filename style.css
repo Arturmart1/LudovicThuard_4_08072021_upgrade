@@ -81,7 +81,6 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
-    content: "";
     background-size: 2px 2px;
     position: absolute;
     top: 0;
@@ -474,11 +473,25 @@ button {
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
-
-.icon-md {
-    font-size: 30px!important;
+.footer-bloc{
+    font-size: 1.5em!important;
 }
-
+.icon-md {
+    font-size: 2em!important;
+}
+.fa-twitter:hover{
+    color: #00ACEE!important;
+}
+.fa-facebook:hover{
+    color: #3B5998!important;
+}
+.fa-dribbble:hover{
+    color: rgb(247, 80, 107)!important;
+}
+.fa-instagram:hover{
+    color: black!important;
+    
+}
 .icon-lg {
     font-size: 60px!important;
 }
@@ -677,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.2em;
 }
 
 .tight-width-whitespace {
@@ -700,8 +713,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
 }
 
 h2 {
@@ -753,7 +768,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(100, 100, 100, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,12 +790,14 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    width: 25rem;
+    font-size: 1.5em;
 }
 
 .btn-atomic-tangerine:hover {
@@ -824,7 +841,10 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-
+.btn-contact{
+    margin-left: 5em;
+    margin-right: 5em;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
