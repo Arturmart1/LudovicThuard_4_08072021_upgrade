@@ -11,6 +11,9 @@ body {
     color: #303030!important;
     font-weight: 700;
 }
+.social-link p{
+    display: none;
+}
 .btn-contact{
     width: 100%!important;
 }
