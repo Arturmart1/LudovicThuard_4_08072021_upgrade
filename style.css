@@ -6,8 +6,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.social-link a{
-    color: white!important;
+
+.social-link a i{
+    color: #303030!important;
+    font-weight: 700;
 }
 .btn-contact{
     width: 100%!important;
