@@ -9,6 +9,25 @@ body {
 .btn-contact{
     width: 100%!important;
 }
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    align-items: baseline;
+    font-size: 1.2em;
+}
+.contact p{
+    margin-left: 0.8rem;
+}
+.fa-envelope .fa-building .fa-clock-o{
+    color: #303030;
+    font-size: 2em!important;
+}
+.contact{
+    
+}
 .footer-bloc h2{
     color: #303030!important;
     font-size: 1.2em!important;
