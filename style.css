@@ -9,7 +9,11 @@ body {
 .btn-contact{
     width: 100%!important;
 }
-
+.footer-bloc h2{
+    color: #303030!important;
+    font-size: 1.2em!important;
+    font-weight: 500!important;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -804,7 +808,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #30303083!important;
     color: #FFFFFF!important;
 }
 
