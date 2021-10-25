@@ -4,6 +4,10 @@ body {
     background: #FFF;
     overflow-x: hidden;
 }
+.header-text-container{
+    background-color: #747474;
+    padding-bottom: 2rem;
+}
 .social-link a i{
     color: #303030!important;
     font-weight: 700;
